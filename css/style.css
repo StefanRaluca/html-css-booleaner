@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -31,6 +30,10 @@ h1 {
     color: rgb(66, 172, 237)
 }
 
+#contenuto_p {
+    background-color: yellow;
+}
+
 .contenuto_logo {
     color: rgba(211, 211, 211, 0.99);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -39,3 +42,10 @@ h1 {
 .contenuto_foto {
     font-size: 10px;
     color: rgba(0, 0, 0, 0.826);
+}
+
+thead {
+    color: white;
+    background-color: rgb(12, 48, 155);
+    border-color: black;
+}
