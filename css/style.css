@@ -2,7 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+main{
+    padding: 10px;
+}
 h2 {
     background-image: url(./pattern.png);
     background-size: contain;
@@ -30,7 +32,7 @@ h1 {
     color: rgb(66, 172, 237)
 }
 
-#contenuto_p {
+.contenuto_p {
     background-color: yellow;
 }
 
@@ -48,4 +50,24 @@ thead {
     color: white;
     background-color: rgb(12, 48, 155);
     border-color: black;
+}
+
+.prima_foto {
+    margin: 0px;
+    background-image: url(./monitor.jpg);
+    font-size: 140%;
+    text-align: center;
+    width: 240px;
+    height: 150px;
+    color: white;
+}
+
+.seconda_foto {
+    background-image: url(./graph.jpg);
+    font-size: 140%;
+    text-align: center;
+    width: 240px;
+    height: 150px;
+    color: white;
+    margin: 0px;
 }
